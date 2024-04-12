@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+body {
+  background-image: url("https://www.photogriffon.com/photos-du-monde/Best-photo-de-Sylvester-Stallone-sa-vie-sa-biographie-ses-citations/4-Sylvester-Stallone-et-Cassius-clay-1976-OSCAR.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.App {
+  padding-inline: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  flex-wrap: wrap;
+}
+
+
+

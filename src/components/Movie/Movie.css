@@ -1,0 +1,68 @@
+.card {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #ffffffb7;
+    height: fit-content;
+  }
+
+  .bookmark {
+    box-shadow: rgb(255 148 0 / 40%) 0px 2px 4px, rgb(216 213 0 / 92%) 0 0 6px 4px, rgb(249 255 0 / 0%) 0px -3px 0px inset;
+  }
+  
+  .top {
+    display: flex;
+    position: relative;
+  }
+
+  .star {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  @media screen and (max-width: 470px) {
+    .top {
+      flex-direction: column;
+    }
+  }
+
+  
+  .left-column {
+    flex: 0 0 auto;
+    padding: 20px 20px 0 20px;
+  }
+  
+  
+  .right-column {
+    flex: 1;
+    padding: 20px 20px 0 20px;
+  }
+  
+  .down {
+    padding: 20px;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card strong {
+    font-weight: bold;
+  }
+
+  .card .down p{
+    height: 20px; /* commence avec une hauteur de 0 */
+    overflow: hidden; /* cache le contenu supplémentaire */
+    transition: height 0.3s; /* applique la transition sur la hauteur avec une durée de 0.3s */
+}
+
+.card .down .active {
+    height: 200px; /* lorsque la classe "active" est ajoutée, la hauteur devient 100% */
+}

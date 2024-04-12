@@ -1,0 +1,28 @@
+.login-box {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 200px;
+  }
+  
+  .login-box > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .login-box > div label{
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .login-box > div input{
+    flex: 1 0;
+  }
